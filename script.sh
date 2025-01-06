@@ -3,6 +3,7 @@ REPO_PATH="./gitmsgbot"
 mkdir -p "$REPO_PATH"
 cd "$REPO_PATH" || exit 1
 git init
+git checkout -b main
 
 
 start_date="2025-01-05"
